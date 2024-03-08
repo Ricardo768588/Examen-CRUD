@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #fcf9c2;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.producto {
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.producto h3 {
+  margin-top: 0;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.producto p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.producto button {
+  background-color: #ff5f5f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.producto button:hover {
+  background-color: #ff3333;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-container input[type=text] {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #848484d5;
+  color: #fff;
+  text-align: center;
+  padding: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
